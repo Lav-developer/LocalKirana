@@ -1,0 +1,15 @@
+{
+  "name": "localkirana",
+  "version": "1.0.0",
+  "description": "Local Kirana Store Management Platform - Production Ready",
+  "main": "server_mysql.py",
+  "scripts": {
+    "dev": "python server_mysql.py",
+    "start": "python server_mysql.py",
+    "dev-json": "python server.py",
+    "build": "echo 'Build complete - static files ready for deployment'",
+    "setup-db": "mysql -u root -p < database/schema.sql"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
