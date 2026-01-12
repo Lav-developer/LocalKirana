@@ -3,4 +3,3 @@ python-dotenv==1.0.0
 bcrypt==4.1.2
 Python==3.8+
 MySQL==8.0+
-Git
